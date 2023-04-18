@@ -3,6 +3,7 @@ import "./Navbar.scss"
 import { Link, useLocation } from 'react-router-dom'
 
 
+
 function Navbar() {
     const [active,setActive] = useState(false)
     const [open,setOpen] = useState(false)
